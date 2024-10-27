@@ -54,10 +54,7 @@ export class ActivityController {
 
         return this.activityService.create(activity);
     } catch (error) {
-        if (error.name === 'ValidationError') {
             throw new UnprocessableEntityException('Data cannot be processed'); 
-        }
-        throw error; 
     }
     }
 

@@ -22,14 +22,17 @@ export class UserController {
 
     async createUser(
         @Body() user: CreateUserDto,
-        @Req() req 
+        @Req() req ,
+        @Res() res: Response
 
-    ): Promise<{ user: User }> { 
+    ): Promise<void> { 
         if(req.user.profile != "board"){
             throw new UnauthorizedException('UnAuthorized User');
         }
         try {
-            return await this.userService.create(user); 
+             await this.userService.create(user); 
+             res.status(201).json({ message: 'User created successfully' });
+
         } catch (error) {
             if (error.name === 'ValidationError') {
                 throw new UnprocessableEntityException('Data cannot be processed'); 
@@ -37,6 +40,8 @@ export class UserController {
             throw error; 
         }
     }
+
+    
     @Put(':id')
     @UseGuards(AuthGuard())
     async updateUser(
