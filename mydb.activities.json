@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "671e6678b00de707d7995f94"
+  },
+  "skill": {
+    "$oid": "671e65a1b00de707d7995f8b"
+  },
+  "title": "kira",
+  "description": "kiradon",
+  "startDate": {
+    "$date": "2025-01-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-01-02T00:00:00.000Z"
+  },
+  "participants": [
+    {
+      "$oid": "671e62fcd58b47738de84d21"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671e66e2da997475c1515027"
+  },
+  "skill": {
+    "$oid": "671e65a1b00de707d7995f8b"
+  },
+  "title": "kira",
+  "description": "kiradon",
+  "startDate": {
+    "$date": "2025-01-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-01-02T00:00:00.000Z"
+  },
+  "participants": [
+    {
+      "$oid": "671e62fcd58b47738de84d21"
+    }
+  ],
+  "__v": 0
+}]

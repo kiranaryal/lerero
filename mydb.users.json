@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "671e62fcd58b47738de84d21"
+  },
+  "name": "Kiran Aryal",
+  "email": "kiran@gmail.com",
+  "username": "board",
+  "password": "$2a$10$MDSbOe6jo.w/1/5ss3Wfk.qlJJQfbVbshRS5jCzFc23KZfhJa9.C.",
+  "profile": "board",
+  "skill": "671e29d6478bb71da213b6d9",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671e6566c0322708b309649a"
+  },
+  "name": "Kiran Aryal 2",
+  "email": "kiran@gmail2.com",
+  "username": "expert",
+  "password": "$2a$10$N8HPPZM8Gv9z63OpqxtsD.HoYRGkRf8dTqwz37OnOBZksd5TSKOYu",
+  "profile": "expert",
+  "skill": "671e29d6478bb71da213b6d9",
+  "__v": 0
+}]
